@@ -5,7 +5,7 @@ mod = Module()
 mod.list("tex_greek_letters", desc="TeX greek letters")
 mod.list("tex_symbols", desc="TeX mathematical symbols")
 ctx = Context()
-
+#
 symbols = {
     # operators
     "fraction": "frac",

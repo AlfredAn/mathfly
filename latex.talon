@@ -1,6 +1,11 @@
 title: /\.tex/
 -
-formula: insert("\\(")
+formula:
+    insert("\\(\\)")
+    key(left:2)
+math block:
+    insert("\\[\\]")
+    key(left:2)
 
 gantt: insert("gantt")
 

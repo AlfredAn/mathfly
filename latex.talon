@@ -1,11 +1,19 @@
 title: /\.tex/
 -
-formula:
+formula | tech bears:
     insert("\\(\\)")
     key(left:2)
-math block:
+math block | tech squares:
     insert("\\[\\]")
     key(left:2)
+
+tech braces:
+    insert("\\{{\\}}")
+    key(left:2)
+
+tech big braces:
+    insert("\\big\\{{\\big\\}}")
+    key(left:6)
 
 gantt: insert("gantt")
 

@@ -56,6 +56,8 @@ symbols = {
     "supremum": "sup",
     # relations
     "there exists": "exists",
+    "there does not exist": "nexists",
+    "does not exist": "nexists",
     "member [of]": "in",
     "not in": "notin",
     "for all": "forall",
@@ -115,7 +117,7 @@ symbols = {
     "mag": "Vert",
     "low dots": "ldots",
     "square root": "sqrt",
-    "equivalent": "leftrightarrow",
+    "equivalent": "iff",
     "medium space": ":",
     "proper subset": "subset",
     "stop": "cdot",
@@ -128,7 +130,9 @@ symbols = {
     "circle": "circ",
     "diamond": "diamond",
     "congruent": "equiv",
-    "sat minus":"setminus"
+    "sat minus":"setminus",
+    "similar": "sim",
+    "implies": "implies"
 }
 
 greek_letters = {

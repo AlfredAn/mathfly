@@ -7,6 +7,8 @@ mod.list("tex_symbols", desc="TeX mathematical symbols")
 ctx = Context()
 #
 symbols = {
+    "gets": "gets",
+    "mid": "mid",
     # operators
     "fraction": "frac",
     # "summation": "sum",
@@ -61,7 +63,7 @@ symbols = {
     "member [of]": "in",
     "not in": "notin",
     "for all": "forall",
-    "[is] not equal [to]": "neq",
+    "not equal": "neq",
     "greater or equal": "geq",
     "less or equal": "leq",
     "[is] approximately [equal] [to]": "approx",
@@ -91,7 +93,7 @@ symbols = {
     "horizontal dots": "cdots",
     "vertical dots": "vdots",
     # sets
-    "empty set": "emptyset",
+    "empty set": "varnothing",
     "subset": "subseteq",
     "superset": "supset",
     "strict subset": "subsetneq",

@@ -1,5 +1,21 @@
 title: /\.tex/
 -
+emph:
+    insert("\\emph{{}}")
+    key(left)
+
+italic:
+    insert("\\textit{{}}")
+    key(left)
+
+small cap:
+    insert("\\textsc{{}}")
+    key(left)
+
+big fat:
+    insert("\\textbf{{}}")
+    key(left)
+
 formula | tech bears:
     insert("\\(\\)")
     key(left:2)
@@ -19,6 +35,10 @@ gantt: insert("gantt")
 
 new line:
     insert(" \\\\\n")
+
+monospace:
+    insert("\\texttt{}")
+    key(left)
 
 text:
     insert("\\text{}")
